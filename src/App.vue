@@ -2,8 +2,8 @@
   <div id='app'>
     <Header></Header>
     <main>
-      <JobList :listings="listings"></JobList>
-      <JobForm :addListing="addListing"></JobForm>
+      <JobList v-bind:listings="listings"></JobList>
+      <JobForm v-bind:addListing="addListing"></JobForm>
     </main>
     <Footer></Footer>
   </div>
